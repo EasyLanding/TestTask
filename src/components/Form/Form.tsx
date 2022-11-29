@@ -4,7 +4,7 @@ import { BaseSyntheticEvent } from 'react'
 import { FormState } from '../../Inrefaces/InterfaceForMock'
 import { FormProps } from '../../Inrefaces/InterfaceForMock'
 
-const Form: React.FC<FormProps> = ({ setTasks, tasks }) => {
+const Form: React.FC<FormProps> = ({ setTasks }) => {
   const [formState, setFormState] = useState<FormState>({
     id: 4,
     type: '',
