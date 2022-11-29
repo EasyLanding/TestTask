@@ -5,7 +5,6 @@ import { useState } from 'react'
 import taskMock from '../mocks/task-mock'
 import { FormState } from '../Inrefaces/InterfaceForMock'
 import { HeaderWrapperStyled } from '../Styled/StyledMUI'
-import { memo } from 'react'
 
 const MainPage = () => {
   const [tasks, setTasks] = useState<FormState[]>(taskMock)
@@ -25,4 +24,4 @@ const MainPage = () => {
   )
 }
 
-export default memo(MainPage)
+export default MainPage
